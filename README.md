@@ -3,12 +3,12 @@ Fazer download automático dos arquivos disponibilizados pelo INCLINE durante a 
 
 O código utiliza as seguintes bibliotecas:
 
--bs4 (BeautifulSoup)
+bs4 (BeautifulSoup)
 
--requests
+requests
 
--os
+os
 
--shutil
+shutil
 
 Com as bibliotecas já instaladas, para baixar basta modificar a variável path para o caminho de uma pasta no seu computador e executar o código. 
