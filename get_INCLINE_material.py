@@ -14,7 +14,6 @@ def get_folders(url="http://www.incline.iag.usp.br/data/disciplinaPOS/2020/mater
             folders.append(links)
     return(folders)
 
-
 def create_folders(path):
     #path = "C:\\Users\\artur\\OneDrive\\Mestrado\\Disciplinas\\AGM5832 - Mudanças climáticas e suas interdisciplinaridades\\Teste"
     folders = get_folders()
@@ -50,4 +49,6 @@ def download_content(path, url="http://www.incline.iag.usp.br/data/disciplinaPOS
                     download = download_file(link_to_download)
 
 path = "C:\\Users\\artur\\OneDrive\\Mestrado\\Disciplinas\\AGM5832 - Mudanças climáticas e suas interdisciplinaridades\\Material"
+create_folders(path)
 download_content(path)
+
