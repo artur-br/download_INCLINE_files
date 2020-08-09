@@ -12,3 +12,5 @@ os
 shutil
 
 Com as bibliotecas já instaladas, para baixar basta modificar a variável path para o caminho de uma pasta no seu computador e executar o código. O código já identifica as pastas criadas e os arquivos, portanto se atualizarem os arquivos, é só rodar de novo que o código irá baixar apenas os novos, evitando o redownload. 
+
+Esse programa não está baixando a pasta TS-Diagram na pasta da quinta-feira
