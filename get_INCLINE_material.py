@@ -49,5 +49,5 @@ def download_content(path, url="http://www.incline.iag.usp.br/data/disciplinaPOS
                     link_to_download = folder_url + file_to_download
                     download = download_file(link_to_download)
 
-
-
+path = "C:\\Users\\artur\\OneDrive\\Mestrado\\Disciplinas\\AGM5832 - Mudanças climáticas e suas interdisciplinaridades\\Material"
+download_content(path)
