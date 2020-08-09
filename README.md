@@ -6,4 +6,4 @@ O código utiliza as seguintes bibliotecas:
 -os
 -shutil
 
-Para baixar, basta 
+Com as bibliotecas já instaladas, para baixar basta modificar a variável path para o caminho de uma pasta no seu computador e executar o código. 
